@@ -21,8 +21,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 123 456 7890",
-    href: "tel:+911234567890",
+    value: "+91 80 4568 2100",
+    href: "tel:+918045682100",
   },
   {
     icon: MapPin,
