@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 40% 7%;
+    --foreground: 220 20% 93%;
+    --card: 218 42% 11%;
+    --card-foreground: 220 20% 93%;
+    --popover: 218 42% 11%;
+    --popover-foreground: 220 20% 93%;
+    --primary: 214 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 216 30% 16%;
+    --secondary-foreground: 220 20% 93%;
+    --muted: 216 20% 16%;
+    --muted-foreground: 215 15% 63%;
+    --accent: 187 100% 50%;
+    --accent-foreground: 222 40% 7%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 216 20% 18%;
+    --input: 216 20% 18%;
+    --ring: 214 100% 50%;
+    --chart-1: 214 100% 50%;
+    --chart-2: 187 100% 50%;
+    --chart-3: 220 20% 93%;
+    --chart-4: 215 15% 63%;
+    --chart-5: 216 30% 16%;
+    --radius: 0.75rem;
+    --sidebar-background: 218 42% 11%;
+    --sidebar-foreground: 220 20% 93%;
+    --sidebar-primary: 214 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 216 30% 16%;
+    --sidebar-accent-foreground: 220 20% 93%;
+    --sidebar-border: 216 20% 18%;
+    --sidebar-ring: 214 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .glass-card {
+    @apply bg-card/60 backdrop-blur-xl border border-border/50;
+  }
+  .glow-blue {
+    box-shadow: 0 0 40px rgba(0, 102, 255, 0.15);
+  }
+  .glow-cyan {
+    box-shadow: 0 0 30px rgba(0, 229, 255, 0.1);
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--accent))];
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Improve touch targets on mobile */
+@media (max-width: 640px) {
+  button, a, [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Prevent layout shift from scrollbar */
+html {
+  scrollbar-gutter: stable;
+}
