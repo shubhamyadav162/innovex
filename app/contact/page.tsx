@@ -27,13 +27,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Bengaluru HQ",
-    value: "Unit 402, Prestige Tech Park, ORR, Bengaluru, KA 560103",
-    href: undefined,
-  },
-  {
-    icon: MapPin,
-    label: "Bijnor Regional Office",
-    value: "2nd Floor, City Center Plaza, Civil Lines, Bijnor, UP 246701",
+    value: "Unit 402, 4th Floor, Prestige Tech Park, Marathahalli-Sarjapur Outer Ring Road, Kadubeesanahalli, Bengaluru, Karnataka 560103, India",
     href: undefined,
   },
   {

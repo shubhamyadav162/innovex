@@ -85,13 +85,7 @@ export function Footer() {
               <li className="flex items-start gap-2 sm:gap-3">
                 <MapPin className="mt-0.5 h-3.5 w-3.5 shrink-0 text-primary sm:h-4 sm:w-4" aria-hidden="true" />
                 <span className="text-xs text-muted-foreground sm:text-sm">
-                  Unit 402, Prestige Tech Park, Bengaluru, KA 560103
-                </span>
-              </li>
-              <li className="flex items-start gap-2 sm:gap-3">
-                <MapPin className="mt-0.5 h-3.5 w-3.5 shrink-0 text-primary sm:h-4 sm:w-4" aria-hidden="true" />
-                <span className="text-xs text-muted-foreground sm:text-sm">
-                  City Center Plaza, Civil Lines, Bijnor, UP 246701
+                  Bengaluru HQ: Unit 402, 4th Floor, Prestige Tech Park, Marathahalli-Sarjapur Outer Ring Road, Kadubeesanahalli, Bengaluru, Karnataka 560103, India
                 </span>
               </li>
               <li className="flex items-center gap-2 sm:gap-3">

@@ -93,13 +93,7 @@ const offices = [
     type: "Headquarters",
     description: "Unit 402, 4th Floor, Prestige Tech Park, Marathahalli-Sarjapur Outer Ring Road, Kadubeesanahalli, Bengaluru, Karnataka 560103, India",
     icon: Building2,
-  },
-  {
-    city: "Bijnor",
-    type: "Regional Operations",
-    description: "2nd Floor, City Center Plaza, Civil Lines, Near Head Post Office, Bijnor, Uttar Pradesh 246701, India",
-    icon: MapPin,
-  },
+  }
 ]
 
 export default function AboutPage() {
@@ -308,7 +302,7 @@ export default function AboutPage() {
                 Strategically driving operations across India
               </h2>
             </div>
-            <div className="mt-8 grid gap-3 sm:mt-12 sm:gap-6 md:grid-cols-2">
+            <div className="mt-8 grid gap-3 sm:mt-12 sm:gap-6 md:grid-cols-1">
               {offices.map((office) => (
                 <div
                   key={office.city}

@@ -65,7 +65,7 @@ const sections = [
         content: [
             "If you have any questions about these Terms, please contact us at:",
             "Email: hello@innovex.co",
-            "Address: Unit 402, 4th Floor, Prestige Tech Park, Outer Ring Road, Bengaluru, Karnataka 560103, India",
+            "Address: Unit 402, 4th Floor, Prestige Tech Park, Marathahalli-Sarjapur Outer Ring Road, Kadubeesanahalli, Bengaluru, Karnataka 560103, India",
         ],
     },
 ]
