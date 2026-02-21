@@ -27,7 +27,7 @@ import {
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Explore Innovex's enterprise digital solutions: UPI payments, custom software engineering, digital transformation, and IPO tech readiness.",
+    "Explore Innovex's enterprise digital solutions: UPI payments, custom software engineering, and digital transformation.",
 }
 
 const services = [
@@ -109,32 +109,7 @@ const services = [
       "Staff training and change management support",
     ],
   },
-  {
-    id: "ipo",
-    icon: Shield,
-    title: "IPO Technology Compliance & Audit Systems",
-    tagline: "Audit-ready infrastructure for public market readiness",
-    description:
-      "Immutable audit logs, RBAC design, encryption KMS, and compliance infrastructure that makes your technology stack investor-ready and regulator-approved for public market listing.",
-    image: "/asset/scott-graham-5fNmWej4tAA-unsplash.jpg",
-    imageAlt: "Immersive digital data visualization with cascading light particles",
-    features: [
-      { icon: FileCheck, text: "Immutable audit log exports with tamper detection" },
-      { icon: Lock, text: "Encryption KMS with key rotation policies" },
-      { icon: Shield, text: "RBAC design with fine-grained permission controls" },
-      { icon: Database, text: "Data governance framework with retention policies" },
-      { icon: Server, text: "Secure infrastructure with penetration testing" },
-      { icon: BarChart3, text: "Compliance dashboard with real-time status monitoring" },
-    ],
-    deliverables: [
-      "Technology audit and compliance gap analysis",
-      "Immutable logging system implementation",
-      "RBAC and access control framework",
-      "Encryption infrastructure with KMS setup",
-      "Audit report templates and export APIs",
-      "Compliance documentation for regulatory submission",
-    ],
-  },
+
 ]
 
 export default function ServicesPage() {
@@ -168,7 +143,7 @@ export default function ServicesPage() {
               <span className="gradient-text">market dominance</span>
             </h1>
             <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground sm:mt-6 sm:text-lg">
-              Four core pillars of digital infrastructure, each designed to take your business
+              Core pillars of digital infrastructure, each designed to take your business
               from where it is to where it needs to be.
             </p>
           </div>

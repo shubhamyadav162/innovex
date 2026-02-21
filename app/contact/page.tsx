@@ -69,7 +69,7 @@ export default function ContactPage() {
               <span className="gradient-text">extraordinary</span>
             </h1>
             <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground sm:mt-6 sm:text-lg">
-              Whether you need payment infrastructure, custom software, or IPO readiness,
+              Whether you need payment infrastructure, custom software, or digital transformation,
               our team is ready to architect the right solution for your business.
             </p>
           </div>

@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     template: "%s | Innovex",
   },
   description:
-    "Innovex engineers secure payment ecosystems, scalable software architecture, and IPO-ready digital infrastructure for businesses built to dominate.",
+    "Innovex engineers secure payment ecosystems, scalable software architecture, and robust digital infrastructure for businesses built to dominate.",
   openGraph: {
     title: "Innovex - Where Ambition Meets Digital Scale",
     description:
-      "Innovex engineers secure payment ecosystems, scalable software architecture, and IPO-ready digital infrastructure for businesses built to dominate.",
+      "Innovex engineers secure payment ecosystems, scalable software architecture, and robust digital infrastructure for businesses built to dominate.",
     type: "website",
     siteName: "Innovex",
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Innovex - Where Ambition Meets Digital Scale",
     description:
-      "Innovex engineers secure payment ecosystems, scalable software architecture, and IPO-ready digital infrastructure for businesses built to dominate.",
+      "Innovex engineers secure payment ecosystems, scalable software architecture, and robust digital infrastructure for businesses built to dominate.",
   },
 }
 

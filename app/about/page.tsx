@@ -83,7 +83,7 @@ const leadership = [
   {
     name: "Neha Gupta",
     role: "Head of Compliance",
-    bio: "Expert in regulatory technology, IPO compliance frameworks, and audit infrastructure. Certified in information security and risk management.",
+    bio: "Expert in regulatory technology, enterprise compliance frameworks, and audit infrastructure. Certified in information security and risk management.",
   },
 ]
 

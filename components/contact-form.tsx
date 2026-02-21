@@ -18,7 +18,6 @@ const serviceOptions = [
   { value: "payments", label: "UPI & Digital Payments" },
   { value: "software", label: "Custom Software Engineering" },
   { value: "digital", label: "Digital Transformation (O2O)" },
-  { value: "ipo", label: "IPO Tech Readiness" },
   { value: "other", label: "Other / General Inquiry" },
 ]
 

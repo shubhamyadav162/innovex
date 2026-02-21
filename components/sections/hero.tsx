@@ -49,7 +49,7 @@ export function HeroSection() {
           {/* Subheadline */}
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground sm:mt-6 sm:text-lg md:text-xl">
             Innovex engineers secure payment ecosystems, scalable software architecture, and
-            IPO-ready digital infrastructure for businesses built to dominate.
+            robust digital infrastructure for businesses built to dominate.
           </p>
 
           {/* CTAs */}

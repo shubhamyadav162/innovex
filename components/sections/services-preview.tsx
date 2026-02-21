@@ -27,14 +27,7 @@ const services = [
     features: ["Inventory sync", "GST billing", "POS cloud migration"],
     href: "/services#digital",
   },
-  {
-    icon: Shield,
-    title: "IPO Tech Readiness",
-    description:
-      "Audit-ready technology stacks with immutable logging, RBAC design, encryption KMS, and compliance infrastructure for public market readiness.",
-    features: ["Immutable audit logs", "Data governance", "Compliance exports"],
-    href: "/services#ipo",
-  },
+
 ]
 
 export function ServicesPreview() {
@@ -53,7 +46,7 @@ export function ServicesPreview() {
             Enterprise solutions that scale with your ambition
           </h2>
           <p className="mt-3 text-base leading-relaxed text-muted-foreground sm:mt-4 sm:text-lg">
-            From payment infrastructure to IPO readiness, we engineer the digital backbone your
+            From payment infrastructure to digital transformation, we engineer the digital backbone your
             business needs to compete and win.
           </p>
         </div>

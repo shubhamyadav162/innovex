@@ -28,7 +28,7 @@ export function CTASection() {
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground sm:mt-6 sm:text-base lg:text-lg">
               Start a conversation with our team of architects and engineers. From payment
-              systems to IPO readiness, we have you covered.
+              systems to digital transformation, we have you covered.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:mt-10 sm:flex-row sm:gap-4">
               <Button

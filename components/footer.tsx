@@ -7,12 +7,13 @@ const footerLinks = {
     { href: "/services", label: "Services" },
     { href: "/contact", label: "Contact" },
     { href: "/privacy-policy", label: "Privacy Policy" },
+    { href: "/terms", label: "Terms & Conditions" },
+    { href: "/refund", label: "Refund Policy" },
   ],
   services: [
     { href: "/services#payments", label: "UPI & Payments" },
     { href: "/services#software", label: "Software Engineering" },
     { href: "/services#digital", label: "Digital Transformation" },
-    { href: "/services#ipo", label: "IPO Readiness" },
   ],
 }
 
@@ -32,7 +33,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-3 text-xs leading-relaxed text-muted-foreground sm:mt-4 sm:text-sm">
-              Engineering secure payment ecosystems, scalable software architecture, and IPO-ready
+              Engineering secure payment ecosystems, scalable software architecture, and robust
               digital infrastructure for businesses built to dominate.
             </p>
           </div>
@@ -120,12 +121,24 @@ export function Footer() {
           <p className="text-xs text-muted-foreground sm:text-sm">
             &copy; {new Date().getFullYear()} Innovex. All rights reserved.
           </p>
-          <div className="flex gap-4 sm:gap-6">
+          <div className="flex flex-wrap gap-4 sm:gap-6">
             <Link
               href="/privacy-policy"
               className="text-xs text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
             >
               Privacy Policy
+            </Link>
+            <Link
+              href="/terms"
+              className="text-xs text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+            >
+              Terms & Conditions
+            </Link>
+            <Link
+              href="/refund"
+              className="text-xs text-muted-foreground transition-colors hover:text-foreground sm:text-sm"
+            >
+              Refund Policy
             </Link>
             <Link
               href="/contact"
