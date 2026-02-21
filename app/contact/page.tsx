@@ -26,8 +26,8 @@ const contactInfo = [
   },
   {
     icon: MapPin,
-    label: "Bengaluru HQ",
-    value: "Bengaluru, Karnataka, India",
+    label: "Corporate Office",
+    value: "Business District, Mumbai, India",
     href: undefined,
   },
   {

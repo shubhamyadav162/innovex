@@ -91,13 +91,13 @@ const offices = [
   {
     city: "Bengaluru",
     type: "Headquarters",
-    description: "Our primary engineering and strategy hub, located in India's technology capital.",
+    description: "Our primary engineering and strategy hub, driving our core technology solutions.",
     icon: Building2,
   },
   {
-    city: "Bijnor",
+    city: "Mumbai",
     type: "Regional Operations",
-    description: "Our regional office supporting operations across Uttar Pradesh and North India.",
+    description: "Our regional office supporting operations and client engagement across the state.",
     icon: MapPin,
   },
 ]
@@ -299,13 +299,13 @@ export default function AboutPage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-widest text-primary">
-                Our Offices
+                Our Presence
               </p>
               <h2
                 id="offices-heading"
                 className="mt-3 font-heading text-2xl font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl"
               >
-                Strategically located across India
+                Strategically driving operations across India
               </h2>
             </div>
             <div className="mt-8 grid gap-3 sm:mt-12 sm:gap-6 md:grid-cols-2">

@@ -85,13 +85,7 @@ export function Footer() {
               <li className="flex items-start gap-2 sm:gap-3">
                 <MapPin className="mt-0.5 h-3.5 w-3.5 shrink-0 text-primary sm:h-4 sm:w-4" aria-hidden="true" />
                 <span className="text-xs text-muted-foreground sm:text-sm">
-                  Bengaluru HQ, Karnataka, India
-                </span>
-              </li>
-              <li className="flex items-start gap-2 sm:gap-3">
-                <MapPin className="mt-0.5 h-3.5 w-3.5 shrink-0 text-primary sm:h-4 sm:w-4" aria-hidden="true" />
-                <span className="text-xs text-muted-foreground sm:text-sm">
-                  Bijnor Regional Office, UP, India
+                  Corporate Office, Mumbai, India
                 </span>
               </li>
               <li className="flex items-center gap-2 sm:gap-3">

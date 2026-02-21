@@ -65,7 +65,7 @@ const sections = [
         content: [
             "If you have any questions about these Terms, please contact us at:",
             "Email: hello@innovex.co",
-            "Address: Bengaluru, Karnataka, India",
+            "Address: Business District, Mumbai, India",
         ],
     },
 ]
