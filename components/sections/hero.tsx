@@ -80,9 +80,9 @@ export function HeroSection() {
           {/* Trust Indicators */}
           <div className="mt-12 flex flex-wrap gap-6 border-t border-border/30 pt-6 sm:mt-16 sm:gap-8 sm:pt-8 lg:gap-16">
             {[
-              { value: "50+", label: "Enterprises Served" },
+              { value: "10+", label: "Projects Delivered" },
               { value: "99.9%", label: "Uptime Guarantee" },
-              { value: "500Cr+", label: "Transactions Processed" },
+              { value: "100%", label: "Secure Payments" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="font-heading text-xl font-bold text-foreground sm:text-2xl md:text-3xl">

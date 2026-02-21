@@ -1,12 +1,12 @@
 import { Building2, ShieldCheck, Clock, Zap, Globe, Award } from "lucide-react"
 
 const stats = [
-  { icon: Building2, value: "50+", label: "Businesses Digitalized" },
-  { icon: Zap, value: "500Cr+", label: "Transactions Processed" },
-  { icon: Clock, value: "24/7", label: "Enterprise Support" },
+  { icon: Building2, value: "10+", label: "Projects Delivered" },
+  { icon: Zap, value: "100%", label: "Secure Payments" },
+  { icon: Clock, value: "Dedicated", label: "Client Support" },
   { icon: ShieldCheck, value: "99.9%", label: "System Uptime" },
-  { icon: Globe, value: "15+", label: "Industries Served" },
-  { icon: Award, value: "100%", label: "Compliance Rate" },
+  { icon: Globe, value: "Custom", label: "Digital Solutions" },
+  { icon: Award, value: "Verified", label: "Security Standards" },
 ]
 
 export function TrustTicker() {
