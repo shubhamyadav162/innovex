@@ -89,15 +89,15 @@ const leadership = [
 
 const offices = [
   {
-    city: "Bengaluru",
+    city: "Bengaluru HQ",
     type: "Headquarters",
-    description: "Our primary engineering and strategy hub, driving our core technology solutions.",
+    description: "Unit 402, 4th Floor, Prestige Tech Park, Marathahalli-Sarjapur Outer Ring Road, Kadubeesanahalli, Bengaluru, Karnataka 560103, India",
     icon: Building2,
   },
   {
-    city: "Mumbai",
+    city: "Bijnor",
     type: "Regional Operations",
-    description: "Our regional office supporting operations and client engagement across the state.",
+    description: "2nd Floor, City Center Plaza, Civil Lines, Near Head Post Office, Bijnor, Uttar Pradesh 246701, India",
     icon: MapPin,
   },
 ]

@@ -26,8 +26,14 @@ const contactInfo = [
   },
   {
     icon: MapPin,
-    label: "Corporate Office",
-    value: "Business District, Mumbai, India",
+    label: "Bengaluru HQ",
+    value: "Unit 402, Prestige Tech Park, ORR, Bengaluru, KA 560103",
+    href: undefined,
+  },
+  {
+    icon: MapPin,
+    label: "Bijnor Regional Office",
+    value: "2nd Floor, City Center Plaza, Civil Lines, Bijnor, UP 246701",
     href: undefined,
   },
   {

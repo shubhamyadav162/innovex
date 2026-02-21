@@ -85,7 +85,13 @@ export function Footer() {
               <li className="flex items-start gap-2 sm:gap-3">
                 <MapPin className="mt-0.5 h-3.5 w-3.5 shrink-0 text-primary sm:h-4 sm:w-4" aria-hidden="true" />
                 <span className="text-xs text-muted-foreground sm:text-sm">
-                  Corporate Office, Mumbai, India
+                  Unit 402, Prestige Tech Park, Bengaluru, KA 560103
+                </span>
+              </li>
+              <li className="flex items-start gap-2 sm:gap-3">
+                <MapPin className="mt-0.5 h-3.5 w-3.5 shrink-0 text-primary sm:h-4 sm:w-4" aria-hidden="true" />
+                <span className="text-xs text-muted-foreground sm:text-sm">
+                  City Center Plaza, Civil Lines, Bijnor, UP 246701
                 </span>
               </li>
               <li className="flex items-center gap-2 sm:gap-3">

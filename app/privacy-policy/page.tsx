@@ -100,7 +100,7 @@ const sections = [
       "Data Protection Officer: dpo@innovex.co",
       "General Inquiries: hello@innovex.co",
       "Phone: +91 123 456 7890",
-      "Registered Office: Business District, Mumbai, India",
+      "Registered Office: Unit 402, 4th Floor, Prestige Tech Park, Outer Ring Road, Bengaluru, Karnataka 560103, India",
       "This Privacy Policy was last updated on January 1, 2026, and may be revised from time to time. We will notify you of any material changes by posting the updated policy on our website.",
     ],
   },
